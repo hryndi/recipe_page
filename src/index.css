@@ -159,3 +159,21 @@ td:last-child {
 tr:last-child {
   border-bottom: 0px;
 }
+
+@media all and (max-width: 500px) {
+  body {
+    padding-block: 0;
+  }
+  main {
+    padding: 0;
+  }
+  img {
+    border-radius: 0;
+  }
+  .content-wrapper {
+    padding-inline: 1.6rem;
+  }
+  td {
+    padding-left: 0.8rem;
+  }
+}
